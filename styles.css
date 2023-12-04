@@ -303,43 +303,25 @@ body {
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
- /* Basic styling for the button */
- .popout-button {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-}
-
-/* Styling for the image inside the button */
-.popout-button img {
-  width: 10%;
-  height: auto;
-  transition: transform 0.3s ease-out;
-}
-
-/* Styling for the pop-out effect on hover */
-.popout-button:hover img {
-  transform: scale(1.1);
-}
-
-/* Styling for the shadow effect */
-.popout-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s ease-out;
-  z-index: 1;
-}
-
-/* Styling for the shadow effect on hover */
-.popout-button:hover::before {
-  opacity: 1;
-}
  
+  button {
+    display: block;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    color: black;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+    border: none;
+    background-image: url(images/lagtrain.gif);
+    box-shadow: 0px 0px 4px 1px grey; /* Add a grey shadow */
+}
+button:hover {
+    margin-top: 0px;
+    box-shadow: 0px 0px 4px 1px grey, 0px 0px 10px 2px grey; /* Add a larger shadow on hover */
+    -moz-box-shadow: 0px 0px 4px 1px grey;
+    -webkit-box-shadow: 0px 0px 4px 1px grey;
+    box-shadow: 0px 0px 4px 1px  grey;
+}
 }
