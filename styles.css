@@ -283,9 +283,11 @@ body {
 
   .logo {
     position: absolute;
-    top: 5px;
-    right: 27vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 2rem;
+    text-align: center;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -319,7 +321,7 @@ body {
     height: 100%;
     padding: 15px;
     font-size: 18px;
-    color: #fff;
+    color: #000000;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -343,7 +345,7 @@ body {
     background-color: rgb(139, 134, 123);
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
-    color: rgb(12, 11, 9);
+    color: rgb(255, 255, 255);
     }
 
  
