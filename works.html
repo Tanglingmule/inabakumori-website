@@ -8,20 +8,4 @@
 </head>
 <body>
     <center><h1>WORKS</h1></center>
-
-    <div class="spotify-section">
-        <button onclick="authenticateSpotify()">Authenticate with Spotify</button>
-    </div>
-
-    <script>
-        const clientId = 'your_client_id';
-        const redirectUri = 'your_redirect_uri';
-        const authEndpoint = 'https://accounts.spotify.com/authorize';
-
-        function authenticateSpotify() {
-            // Redirect to Spotify for authentication
-            window.location = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=token`;
-        }
-    </script>
-</body>
 </html>
