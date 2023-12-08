@@ -330,7 +330,7 @@ body {
     backface-visibility: hidden;
     }
     .flex-item .first-button {
-    background: url('images/lagtrain.gif') center center no-repeat;
+    background: url('images/inabakumori-nukunukunigirimeshi.gif') center center no-repeat;
     background-size: cover;
     }
     .flex-item .second-button {
@@ -338,7 +338,7 @@ body {
     background-size: cover;
     }
     .flex-item .third-button {
-    background: url('images/lagtrain.gif') center center no-repeat;
+    background: url('images/inabakumori-nukunukunigirimeshi.gif') center center no-repeat;
     background-size: cover;
     }
     .flex-item button:hover {
