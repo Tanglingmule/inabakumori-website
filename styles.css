@@ -309,7 +309,7 @@ body {
 /* FLEX BUTTONS */
   #flex-container {
     display: flex;
-    width: 150%; /* or a specific width */
+    width: 100%; /* or a specific width */
     height: 20%;
   }
   .flex-item {
@@ -338,7 +338,7 @@ body {
     background-size: cover;
     }
     .flex-item .third-button {
-    background: url('images/inabakumori-nukunukunigirimeshi.gif') center center no-repeat;
+    background: url('images/rainy-boots-inabakumori.gif') center center no-repeat;
     background-size: cover;
     }
     .flex-item button:hover {
