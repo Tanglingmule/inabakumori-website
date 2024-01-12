@@ -103,6 +103,12 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.sub-login{
+  order: 2;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
 /* ............//// Showcase styling ////......... */
 
 .showcase-area {
@@ -289,6 +295,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
+    text-align: center;
+  }
+
+  .sub-login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(190%, -60%);
+    font-size: 1rem;
     text-align: center;
   }
 
